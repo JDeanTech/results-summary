@@ -5,13 +5,14 @@
 }
 
 body{
+    font-family: 'Hanken Grotesk', sans-serif;
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
 main{
-    background-color: blue;
+    background-color: hsl(234, 85%, 45%);
     max-width: 31rem;
     width: 91%;
     border-radius: 10px;
@@ -29,13 +30,12 @@ main{
 }
 
 
-
 ul{
-    list-style: none;
+    list-style: symbols(cyclic "\1F34E" "\1F34F");
 }
 
 
 
-.attribution{
+p{
 
 }
