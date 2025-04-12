@@ -6,22 +6,37 @@
 
 body{
     font-family: 'Hanken Grotesk', sans-serif;
-    background-color: white;
+    background-color: hsl(221, 100%, 96%); /*pale blue*/
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    
+    padding: 20px;
+    align-items: center;
+    padding: 50px;
 }
 main{
-    background-color: hsl(234, 85%, 45%);
+    background: ;
     max-width: 31rem;
     width: 91%;
     border-radius: 10px;
     display: flex;
+    margin: auto;
+    
+}
+.score{
+    background-color: white;
+}
+
+.summary{
+    background-color: hsl(241, 81%, 54%)
 }
 
 .myresult{
     flex: 1;
     border-color: black;
+    padding:20px;
+    margin: 10px;
+
 
 }
 
@@ -29,13 +44,58 @@ main{
     margin-right: 20px;
 }
 
+.your-result,
+.final-score,
+.score-great,
+.score-comment,
+.textsummary,
+.list,
+.continue-button
+{
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
 
-ul{
+
+
+
+
+
+.final-score
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 50px;;
+    width: 100px;
+    height: 100px;
+    background-color:hsl(256, 72%, 46%);
+    border-radius: 50%;    
+}
+
+
+
+ul
+{
     list-style: symbols(cyclic "\1F34E" "\1F34F");
 }
 
-
-
-p{
+.continue-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color:white;
 
 }
+.continue-button:hover
+{
+    background-color: hsl(224, 30%, 37%);
+    color: hsl(221, 100%, 96%);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
