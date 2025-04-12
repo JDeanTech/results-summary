@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+main{
+    background-color: hsl(234, 85%, 45%);
+    max-width: 31rem;
+    width: 91%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.myresult{
+    flex: 1;
+    border-color: black;
+
+}
+
+.myresult:first-child{
+    margin-right: 20px;
+}
+
+
+ul{
+    list-style: symbols(cyclic "\1F34E" "\1F34F");
+}
+
+
+
+p{
+
+}
