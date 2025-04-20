@@ -170,7 +170,7 @@ li
 
 .memory
 {
-    color:yellow;
+    color:hsl(224, 30%, 37%);
     font-weight: 700;
 }
 
@@ -230,5 +230,13 @@ ul div
     color: hsl(221, 100%, 96%);
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+
+.attribution
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
